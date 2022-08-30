@@ -154,7 +154,7 @@ void DisParser::train(const string &trainFile, const string &devFile,
 	getDepFeats(trainInsts, m_options.conllFolder + path_separator + "train.conll.predict");
 	getDepFeats(devInsts, m_options.conllFolder + path_separator + "dev.conll.predict");
 	getDepFeats(testInsts, m_options.conllFolder + path_separator + "test.conll.predict");
-	cout << "DEP FEATS FINISHED \n";
+
 	int word_count = 0, max_size;
 	max_size = trainInsts.size();
 	for (int idx = 0; idx < max_size; idx++) {
@@ -170,26 +170,19 @@ void DisParser::train(const string &trainFile, const string &devFile,
 	}
 	extern_nodes.resize(word_count * 10);
 	node_count = 0;
-	cout << "getSynFeats train STARTING \n";
+
 	string syn = "conll.dump.results";
 	getSynFeats(trainInsts, m_options.dumpFolder + path_separator + "train." + syn);
-	cout << "getSynFeats dev STARTING \n";
 	getSynFeats(devInsts, m_options.dumpFolder + path_separator + "dev." + syn);
-	cout << "getSynFeats test STARTING \n";
 	getSynFeats(testInsts, m_options.dumpFolder + path_separator + "test." + syn);
-	cout << "getSynFeats FINISHED \n";
 	
 	vector<vector<Instance> > otherInsts(m_options.testFiles.size());
 	for (int idx = 0; idx < m_options.testFiles.size(); idx++) {
 		m_pipe.readInstances(m_options.testFiles[idx], otherInsts[idx], m_options.maxInstance);
 	}
-	cout << "addTestAlpha STARTING \n";
 	addTestAlpha(devInsts);
-	cout << "addTestAlpha STARTING \n";
 	addTestAlpha(testInsts);
-	cout << "createAlphabet STARTING \n";
 	createAlphabet(trainInsts);
-	cout << "getGoldActions STARTING \n";
 	getGoldActions(trainInsts);
 
 	if(m_options.wordEmbFile == "")

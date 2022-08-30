@@ -1,1 +1,2 @@
-./NNDisParser-synmlp-do  -l -train ../data/rst.train312 -dev ../data/rst.dev35  -test ../data/rst.test38  -option ../option/option.synhiddendo
+
+../../NNDisParser/bin/NNDisParser-synmlp-do  -l -train ../de2/rst/train.rst -dev ../de2/rst/dev.rst  -test ../de2/rst/test.rst  -option ../option/option.synhiddendo 

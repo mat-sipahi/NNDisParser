@@ -1,0 +1,14 @@
+Es_PRON folgt_VERB der_DET Wetterbericht_NOUN für_ADP Donnerstag_PROPN ,_PUNCT den_DET 31_NUM ._PUNCT Januar_PROPN ,_PUNCT in_ADP Berlin_PROPN :_PUNCT <S>
+Morgen_NOUN wird_AUX ein_DET weitestgehend_ADJ bewölkter_ADJ Himmel_NOUN das_DET Wetter_NOUN bestimmen_VERB ._PUNCT <S>
+Hin_ADV und_CCONJ wieder_ADV bahnt_VERB sich_PRON jedoch_ADV auch_ADV die_DET Sonne_NOUN ihren_DET Weg_NOUN durch_ADP die_DET Wolkendecke_NOUN ._PUNCT <S>
+Die_DET Temperatur_NOUN sinkt_VERB auf_ADP -_PUNCT 1_NUM Grad_NOUN ._PUNCT <S>
+Vergessen_VERB Sie_PRON nicht_PART ,_PUNCT sich_PRON warm_ADJ anzuziehen_VERB <S>
+–_PUNCT denn_CCONJ die_DET gefühlte_ADJ Höchsttemperatur_NOUN wird_AUX 2_NUM Grad_NOUN nicht_PART übersteigen_VERB ._PUNCT <P>
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+( Cause l ( Cause l ( Cause l ( Cause l ( Cause r ( leaf t 0 15 ) ( leaf t 16 26 ) ) ( leaf t 27 42 ) ) ( leaf t 43 51 ) ) ( leaf t 52 59 ) ) ( leaf t 60 71 ) )
+

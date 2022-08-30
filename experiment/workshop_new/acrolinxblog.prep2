@@ -1,0 +1,20 @@
+Blog_NOUN KI_PROPN gestützte_ADJ Lösungen_NOUN für_ADP die_DET Content_NOUN -_PUNCT Optimierung_NOUN <S>
+Technische_ADJ Redakteure_NOUN *innen_NOUN sind_AUX für_ADP den_DET Erfolg_NOUN eines_DET Produkts_NOUN oder_CCONJ einer_DET Lösung_NOUN unerlässlich_ADJ ._PUNCT <S>
+Produkte_NOUN können_AUX noch_ADV so_ADV gut_ADJ sein_AUX <S>
+–_PUNCT wenn_SCONJ Kunden_NOUN *innen_VERB nicht_PART verstehen_VERB ,_PUNCT wie_SCONJ sie_PRON sie_PRON implementieren_VERB <S>
+oder_CCONJ welche_PRON Vorteile_NOUN sie_PRON ihnen_PRON bringen_VERB ,_PUNCT <S>
+erleben_VERB Unternehmen_NOUN eine_DET Flut_NOUN von_ADP Supportanfragen_NOUN und_CCONJ mehr_PRON Kundenabwanderung_NOUN ._PUNCT <S>
+Mit_ADP dem_DET Release_NOUN von_ADP Acrolinx_PROPN Targets_PROPN Anfang_NOUN des_DET Jahres_NOUN haben_AUX wir_PRON nicht_PART nur_ADV Produktfunktionen_NOUN ausgeweitet_VERB ,_PUNCT <S>
+sondern_CCONJ auch_ADV fokussiertere_ADJ –_PUNCT und_CCONJ erschwingliche_ADJ –_PUNCT Content_NOUN -_PUNCT Lösungen_NOUN eingeführt_VERB ._PUNCT <S>
+Mit_ADP Targets_PROPN prüft_VERB Acrolinx_PROPN Content_PROPN nun_ADV auch_ADV auf_ADP inklusive_ADP Sprache_NOUN und_CCONJ Schnell_NOUN -_PUNCT Lesbarkeit_NOUN ._PUNCT <P>
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+Tree
+( Cause r ( Cause r ( leaf t 0 9 ) ( leaf t 10 24 ) ) ( Cause r ( Cause r ( Cause r ( Cause r ( Cause r ( Cause r ( leaf t 25 31 ) ( leaf t 32 43 ) ) ( leaf t 44 51 ) ) ( leaf t 52 62 ) ) ( leaf t 63 79 ) ) ( leaf t 80 92 ) ) ( leaf t 93 108 ) ) )
+

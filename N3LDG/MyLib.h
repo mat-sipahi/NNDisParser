@@ -337,9 +337,10 @@ inline void clean_str(string &str) {
     }
 }
 
-inline bool my_getline(ifstream &inf, string &line) {
-    if (!getline(inf, line))
+bool my_getline(ifstream &inf, string &line) {
+    if (!getline(inf, line)) {
         return false;
+    }
     int end = line.size() - 1;
     while (end >= 0 && (line[end] == '\r' || line[end] == '\n')) {
         line.erase(end--);
