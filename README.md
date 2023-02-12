@@ -12,6 +12,15 @@ Features. COLING'18, 2018.](http://aclweb.org/anthology/C18-1047)
 * Step 5: If you want to run this project. And add this argument. </br>
 `-train /your/training/corpus -dev /your/development/corpus -test /your/test/corpus -option /your/option/file -l` </br>
 
+## MAT build steps:
+- install build-essentials and cmake
+- install kml:
+https://www.intel.com/content/www/us/en/develop/documentation/installation-guide-for-intel-oneapi-toolkits-linux/top/installation/install-using-package-managers/apt.html#apt
+- apply CMakeLists.txt and build/build.sh changes
+
+* Step 1: go to NNDisParser/build in the project path
+* Step 2: run `bash build.sh`
+
 
 ## Data ##
 RST Tree Bank.</br>
